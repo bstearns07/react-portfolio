@@ -16,7 +16,7 @@ export default function About(){
           <div className="w-2/3">
             <p className="text-lg text-gray-700 mb-6">
               I am a passionate developer with experience in building modern
-              web applications. I specialize in JavaScript, React, and
+              web applications. I testspecialize in JavaScript, React, and
               Node.js. With a strong foundation in both frontend and backend
               development, I create efficient, scalable, and user-friendly
               solutions.
