@@ -1,5 +1,5 @@
 import React from "react"
-
+// 
 export default function Skills(){
   return(
     <section id="skills" className="py-16 bg-white px-6">

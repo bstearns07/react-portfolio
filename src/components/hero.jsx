@@ -1,5 +1,5 @@
 import React from "react"
-
+// 
 export default function Hero(){
   return(
     <section id="hero" className="pt-24 pb-16 px-6">
