@@ -1,12 +1,12 @@
 import React from "react"
 
-export default function Heade(){
+export default function Header(){
   return(
     <div className="min-h-screen bg-gray-100">
     {/* Header/Navigation */}
     <header className="fixed w-full bg-white shadow-md">
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold">Your Logo</div>
+        <div className="text-2xl font-bold"><img src="/src/images/Logo.png" alt="Logo"className="w-24 h-auto"></img></div>
         <div className="flex gap-6">
           <a href="#hero" className="hover:text-blue-600">
             Home
