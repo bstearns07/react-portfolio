@@ -1,22 +1,25 @@
-import React from "react";
-import Header from './components/header.jsx'
-import Footer from "./components/footer.jsx";
-import Card from "./components/Card.jsx"
-import Skills from "./components/skills.jsx";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-export default function App() {
-  return(
-    <div>
+function App() {
+  return (
+    <div className="min-h-screen bg-white text-slate-800">
       <Header />
       <main>
         <Hero />
         <About />
         <Projects />
         <Skills />
-        <Projects />
+        <Contact />
       </main>
-      <Card />
       <Footer />
     </div>
-  )
+  );
 }
+
+export default App;
