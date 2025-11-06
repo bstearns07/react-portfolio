@@ -8,7 +8,7 @@ export default function About(){
         <div className="flex gap-12 items-center">
           <div className="w-1/3">
             <img
-              src="/profile-photo.jpg"
+              src="/images/profile-image.jpg"
               alt="Profile"
               className="rounded-lg shadow-lg"
             />
