@@ -6,7 +6,7 @@ export default function Contact(){
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center">Contact Me</h2>
         <div className="max-w-2xl mx-auto">
-          <form className="space-y-6">
+          <form className="space-y-6"   action="https://formspree.io/f/xyzbrorj" method="POST">
             <div>
               <input
                 type="email"

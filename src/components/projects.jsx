@@ -18,7 +18,7 @@ export default function Projects(){
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">
-                  Project Title {project}
+                  Project Title: {project}
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Brief description of the project and the technologies used.

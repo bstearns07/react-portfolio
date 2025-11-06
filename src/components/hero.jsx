@@ -18,9 +18,9 @@ export default function Hero(){
             </button>
           </div>
         </div>
-        <div className="w-1/3">
+        <div className="w-1/4">
           <img
-            src="/hero-image.png"
+            src="/images/hero-image.jp"
             alt="Hero Illustration"
             className="w-full"
           />
