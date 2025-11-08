@@ -1,6 +1,6 @@
-import React from "react"
-import PillNav from './PillNav';
-import logo from '/icon.jpg';
+import React from "react";
+import PillNav from "./PillNav";
+import logo from "../assets/portfolio.png";
 
 export default function Header() {
   return (

@@ -1,32 +1,79 @@
-import React from "react"
-// 
-export default function Hero(){
-  return(
-    <section id="hero" className="pt-24 pb-16 px-6">
-      <div className="container mx-auto flex items-center justify-between">
-        <div className="max-w-2xl">
-          <h1 className="text-5xl font-bold mb-4">Hi, I'm Ben</h1>
-          <p className="text-xl text-gray-600 mb-8">
-            Full Stack Developer | Web Designer
+import React from "react";
+import headshot from "../assets/headshot.png";
+import ProfileCard from "./ProfileCard";
+import TextType from "./TextType";
+import TrueFocus from "./TrueFocus";
+
+export default function Hero() {
+  return (
+    <section
+      className="min-h-[60vh] flex flex-col items-center pt-32"
+      id="hero"
+    >
+      <div className="w-full justify-center pt-48 mb-6 block md:hidden">
+        <TrueFocus
+          sentence="Your Name"
+          manualMode={false}
+          blurAmount={5}
+          borderColor="blue"
+          glowColor="rgba(0, 0, 255, 0.6)"
+          animationDuration={1}
+          pauseBetweenAnimations={1}
+        />
+      </div>
+      <div className="max-w-5xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <TextType
+            text={["Hi, I'm Ben", "I am an Aspiring Software Engineer."]}
+            className="text-4xl md:text-5xl font-extrabold mb-4"
+            typingSpeed={75}
+            pauseDuration={1500}
+            showCursor={true}
+            cursorCharacter="|"
+          />
+          <p className="text-lg text-slate-700 mb-6">
+            I build accessible, performant web apps with React and Tailwind CSS.
           </p>
-          <div className="flex gap-4">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
-              Download CV
-            </button>
-            <button className="border border-blue-600 text-blue-600 px-6 py-2 rounded-lg hover:bg-blue-50">
-              Contact Me
-            </button>
+          <div className="flex gap-3">
+            <a
+              href="#projects"
+              className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md shadow hover:bg-blue-400"
+            >
+              See projects
+            </a>
+            <a
+              href="#contact"
+              className="inline-block border border-slate-300 px-4 py-2 rounded-md hover:bg-slate-50"
+            >
+              Contact me
+            </a>
           </div>
         </div>
-        <div className="w-1/4">
-          <img
-            src="/images/hero-image.jp"
-            alt="Hero Illustration"
-            className="w-full"
-          />
+        <div className="hidden md:flex justify-end">
+          <div className="">
+            <ProfileCard
+              name="Ben Stearns"
+              title="Aspiring Software Engineer"
+              handle="bstearns07"
+              status="Online"
+              contactText="Contact Me"
+              avatarUrl={headshot}
+              iconUrl=""
+              showUserInfo={true}
+              enableTilt={true}
+              enableMobileTilt={false}
+              onContactClick={() => {
+                const el = document.getElementById("contact");
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth", block: "start" });
+                } else {
+                  window.location.hash = "#contact";
+                }
+              }}
+            />
+          </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
-  

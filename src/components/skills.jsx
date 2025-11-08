@@ -1,41 +1,34 @@
-import React from "react"
-// 
-export default function Skills(){
-  return(
-    <section id="skills" className="py-16 bg-white px-6">
-      <div className="container mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Skills</h2>
-        <div className="grid grid-cols-5 gap-6">
-          {[
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "C#",
-            "C++",
-            "Java",
-            "Python",
-            "SQL",
-            "ASP.NET - Full Stack",
-            "Entity Framework",
-            "React",
-            "Node.js",
-            "Vite",
-            "Tailwind",
-            "Bootstrap",
-            "PC Maintenance and Repair",
-            "Windows Server",
-            "Windows and Linux Operating Systems",
-            "Networking"
-          ].map((skill) => (
-            <div
+import React from "react";
+
+const skills = [
+  "React",
+  "Tailwind CSS",
+  "JavaScript",
+  "TypeScript",
+  "Accessibility",
+  "Testing",
+  "Node.js",
+  "Git",
+  "Responsive Design",
+  "UI/UX Design",
+];
+
+export default function Skills() {
+  return (
+    <section id="skills" className="py-16">
+      <div className="max-w-5xl mx-auto px-6">
+        <h2 className="text-2xl font-semibold mb-4">Skills</h2>
+        <div className="flex flex-wrap gap-3">
+          {skills.map((skill) => (
+            <span
               key={skill}
-              className="bg-gray-100 rounded-lg p-4 text-center hover:shadow-md transition-shadow"
+              className="px-3 py-1 bg-slate-100 text-slate-700 rounded-full text-sm"
             >
-              <span className="text-lg font-semibold">{skill}</span>
-            </div>
+              {skill}
+            </span>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }

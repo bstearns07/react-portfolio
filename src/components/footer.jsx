@@ -1,24 +1,9 @@
-import React from "react"
-// 
-export default function Footer(){
-  console.log("Footer rendered!");
-  return(
-    <div>
-        <footer className="bg-gray-800 text-white py-8">
-            <div className="container mx-auto px-6">
-                <div className="flex justify-between items-center">
-                <div>© {new Date().getFullYear()} Ben Stearns</div>
-                <div className="flex gap-6">
-                    <a href="https://github.com/bstearns07" className="hover:text-blue-400">
-                    GitHub
-                    </a>
-                    <a href="https://www.linkedin.com/in/ben-stearns-474261283/" className="hover:text-blue-400">
-                    LinkedIn
-                    </a>
-                </div>
-                </div>
-            </div>
-        </footer>
-    </div>
+import React from 'react'
+
+export default function Footer() {
+  return (
+    <footer className="py-6">
+      <div className="max-w-5xl mx-auto px-6 text-center text-sm text-slate-500">© {new Date().getFullYear()} Ben Stearns - Built with React & Tailwind</div>
+    </footer>
   )
 }

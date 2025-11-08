@@ -1,10 +1,8 @@
-// resolves import alianses
 {
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
-  },
-  "include": ["src"]
+  }
 }

@@ -1,36 +1,56 @@
-import React from "react"
-// 
-export default function Contact(){
-  return(
-    <section id="contact" className="py-16 px-6">
-      <div className="container mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Contact Me</h2>
-        <div className="max-w-2xl mx-auto">
-          <form className="space-y-6"   action="https://formspree.io/f/xyzbrorj" method="POST">
-            <div>
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
-              />
-            </div>
-            <div>
-              <textarea
-                placeholder="Your Message"
-                rows="6"
-                className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 w-full"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
+import React from "react";
+import GlassIcons from "./GlassIcons";
+import { FiFacebook, FiGithub, FiLinkedin } from "react-icons/fi";
+
+export default function Contact() {
+  const items = [
+    {
+      icon: <FiLinkedin />,
+      color: "blue",
+      label: "LinkedIn",
+      onClick: () =>
+        window.open(
+          "https://www.linkedin.com/in/ben-stearns-474261283/",
+          "_blank",
+          "noopener,noreferrer"
+        ),
+    },
+    {
+      icon: <FiGithub />,
+      color: "gray",
+      label: "GitHub",
+      onClick: () =>
+        window.open(
+          "https://github.com/bstearns07",
+          "_blank",
+          "noopener,noreferrer"
+        ),
+    },
+    {
+      icon: <FiFacebook />,
+      color: "blue",
+      label: "Facebook",
+      onClick: () =>
+        window.open(
+          "https://www.facebook.com/?ref=tn_tinyman",
+          "_blank",
+          "noopener,noreferrer"
+        ),
+    },
+  ];
+  return (
+    <section id="contact" className="py-16 bg-slate-50">
+      <div className="max-w-5xl mx-auto px-6">
+        <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+        <p className="text-slate-700 mb-8">
+          Interested in working together? Reach out via email:{" "}
+          <a href="mailto:bstearns07@gmail.com" className="text-sky-600">
+            bstearns07@gmail.com
+          </a>
+        </p>
+
+        <GlassIcons items={items} className="w-full" />
       </div>
     </section>
-  )
+  );
 }
-  
