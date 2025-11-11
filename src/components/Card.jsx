@@ -38,7 +38,7 @@ export default function Card({ project }) {
           </div>
         )}
         <a href={project.link} target="_blank" className="text-sky-600 hover:underline text-sm">
-          View
+          View in GitHub
         </a>
       </SpotlightCard>
     </div>

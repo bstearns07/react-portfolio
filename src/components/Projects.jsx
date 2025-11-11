@@ -10,7 +10,7 @@ const projects = [
   {
     id: 1,
     title: "Tuition Calculator",
-    desc: "As the Skills USA Nebraska State Champion - 2025 - I submitted this project that calculates your cost your cost of going to college",
+    desc: "As the Skills USA Nebraska State Champion - 2025 - I submitted this project that calculates your cost of going to college",
     link: "https://github.com/bstearns07/TuitionCalculator_WebApp",
     image: projectLogo1,
     imageMobile: projectLogo1,
