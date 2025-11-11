@@ -10,7 +10,7 @@ const projects = [
   {
     id: 1,
     title: "Tuition Calculator",
-    desc: "As the Skills USA Nebraska State Champion - 2025 - I submitted this project that calculates your cost of going to college",
+    desc: "As Skills USA Nebraska State Champion - 2025 - I submitted this project that calculates your cost of going to college",
     link: "https://github.com/bstearns07/TuitionCalculator_WebApp",
     image: projectLogo1,
     imageMobile: projectLogo1,
@@ -21,7 +21,7 @@ const projects = [
     desc: "A JavaFX project that retrieves the weather for any geographic coordinates using the Open Meteo API",
     link: "https://github.com/bstearns07/WeatherAPIApp",
     image: projectLogo2,
-    imageMobile: projectLogo1,
+    imageMobile: projectLogo2,
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const projects = [
     desc: "A simple Pong game using the python pygame library.",
     link: "https://github.com/bstearns07/Pong_Game",
     image: projectLogo3,
-    imageMobile: projectLogo1,
+    imageMobile: projectLogo3,
   },
 ];
 

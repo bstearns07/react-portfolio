@@ -12,7 +12,7 @@ export default function Hero() {
     >
       <div className="w-full justify-center pt-48 mb-6 block md:hidden">
         <TrueFocus
-          sentence="Your Name"
+          sentence="Ben Stearns"
           manualMode={false}
           blurAmount={5}
           borderColor="blue"
