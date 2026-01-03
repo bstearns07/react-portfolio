@@ -1,16 +1,22 @@
 import React from "react";
 
 const skills = [
+  "C#",
+  "C++",
+  "Java",
+  "Python",
+  "HTML/CSS",
+  "ASP.NET",
+  "SQL",
   "React",
-  "Tailwind CSS",
+  "Tailwind/Bootstrap CSS",
   "JavaScript",
-  "TypeScript",
   "Accessibility",
-  "Testing",
-  "Node.js",
-  "Git",
+  "Unit Testing",
+  "Github",
+  "Supabase",
   "Responsive Design",
-  "UI/UX Design",
+  "Full-stack Development"
 ];
 
 export default function Skills() {
