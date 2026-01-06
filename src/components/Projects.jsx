@@ -13,7 +13,7 @@ const projects = [
   {
     id: 1,
     title: "Tuition Calculator",
-    desc: "As Skills USA Nebraska State Champion - 2025 - I submitted this project that calculates your cost of going to college",
+    desc: "As Skills USA Nebraska State Champion - 2025 - I submitted this project that calculates your cost of going to college. Built with ASP.NET",
     link: "https://github.com/bstearns07/TuitionCalculator_WebApp",
     image: projectLogo1,
     imageMobile: projectLogo1,
@@ -37,7 +37,7 @@ const projects = [
   {
     id: 4,
     title: "Yugioh Card Library with OCR",
-    desc: "A card library app using OCR and Supabase to store your Yugioh card collection!",
+    desc: "A python Flask card library app that uses OCR and Supabase to store your Yugioh card collection!",
     link: "https://github.com/bstearns07/YugiohCardLibrary_With_OCR",
     image: projectLogo4,
     imageMobile: projectLogo4,
