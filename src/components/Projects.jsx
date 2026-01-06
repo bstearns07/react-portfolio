@@ -3,6 +3,9 @@ import Card from "./Card";
 import projectLogo1 from "../assets/TuitionCalculator.png";
 import projectLogo2 from "../assets/weatherAPI.png"
 import projectLogo3 from "../assets/pong.jpeg"
+import projectLogo4 from "../assets/yugioh.jpeg"
+import projectLogo5 from "../assets/portfolio.jpeg"
+import projectLogo6 from "../assets/AchievementTracker.jpeg"
 // import projectLogo2 from "../assets/project-logo.png";
 // import projectLogo3 from "../assets/project-ogo.png";
 
@@ -30,6 +33,30 @@ const projects = [
     link: "https://github.com/bstearns07/Pong_Game",
     image: projectLogo3,
     imageMobile: projectLogo3,
+  },
+  {
+    id: 4,
+    title: "Yugioh Card Library with OCR",
+    desc: "A card library app using OCR and Supabase to store your Yugioh card collection!",
+    link: "https://github.com/bstearns07/YugiohCardLibrary_With_OCR",
+    image: projectLogo4,
+    imageMobile: projectLogo4,
+  },
+    {
+    id: 5,
+    title: "Ben's Portfolio Website",
+    desc: "The React application for my portfolio website. Hosted on AWS.",
+    link: "https://github.com/bstearns07/react-portfolio",
+    image: projectLogo5,
+    imageMobile: projectLogo5,
+  },
+      {
+    id: 6,
+    title: "Achievement Tracker",
+    desc: "A trophy-tracker app for games. Built as Windows Form app with simple file I/O.",
+    link: "https://github.com/bstearns07/AchievementTracker-BDS",
+    image: projectLogo6,
+    imageMobile: projectLogo6,
   },
 ];
 
