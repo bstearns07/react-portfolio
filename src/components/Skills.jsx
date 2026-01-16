@@ -6,6 +6,7 @@ const skills = [
   "Java",
   "Python",
   "HTML/CSS",
+  "COBAL",
   "ASP.NET",
   "SQL",
   "React",
