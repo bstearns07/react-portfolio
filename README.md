@@ -13,8 +13,8 @@ Ben Stearns - [@bstearns07](https://github.com/bstearns07)
 
 ## 📑 Table of Contents
 - 📌 [Summary](#-summary)
+- ⭐ [How It Works](#-how-it-works)
 - ⭐ [Features](#-features)
-- ⚙️ [How It Works](#-how-it-works)
 - 🧰 [Tech Stack](#-tech-stack)
 - 🧱 [Project Structure](#-project-structure)
 - 🔧 [Development Tools](#-development-tools)
@@ -37,7 +37,19 @@ It is designed to provide a clean, structured way to explore my work and learn m
 
 ---
 
-## ⭐ Features
+## ⭐ How It Works
+
+- Built using **React functional components**
+- Project data is structured and rendered dynamically
+- Navigation allows seamless transitions between sections
+- Each project is displayed using reusable UI components
+- External links open GitHub repos or deployed applications
+- Designed for scalability and easy future updates
+
+---
+
+
+## ✨ Features
 
 - 🎨 Responsive modern UI (mobile + desktop friendly)
 - ⚛️ Component-based React architecture
@@ -49,14 +61,10 @@ It is designed to provide a clean, structured way to explore my work and learn m
 
 ---
 
-## ⚙️ How It Works
+## 🚀 Live Demo
+> ⬇️ **Click the link below to open the app in your browser and try it yourself!**⬇️
 
-- Built using **React functional components**
-- Project data is structured and rendered dynamically
-- Navigation allows seamless transitions between sections
-- Each project is displayed using reusable UI components
-- External links open GitHub repos or deployed applications
-- Designed for scalability and easy future updates
+👉 [![Open Demo](https://img.shields.io/badge/▶%20Open%20Live%20Demo-ff4b4b?style=for-the-badge)](https://www.bstearns.com)
 
 ---
 
@@ -118,3 +126,8 @@ src/
 ## 📘 What I Learned
 
 There's an incredible amount learned here. I've never learned React before and still haven't really delved into it. This was something I put together in about a 3hr workshop. I learned all about the basic structure of a React application including the resuable components. I was also introduced to Tailwind CSS in this project as well as AWS for hosting the application which was really cool to learn.
+
+## 🖼 Screenshots
+
+### Home Screen
+![Home Screen](images/home_screen.png)
