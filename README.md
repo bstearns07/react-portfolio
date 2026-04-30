@@ -130,4 +130,4 @@ There's an incredible amount learned here. I've never learned React before and s
 ## 🖼 Screenshots
 
 ### Home Screen
-![Home Screen](images/home_screen.png)
+![Home Screen](images/home_page.png)
