@@ -1,110 +1,120 @@
-# Personal Portfolio Website
+# 📁 React Portfolio
 
-A modern, responsive portfolio website built with React, Vite, and TailwindCSS. This portfolio showcases my projects, skills, and professional experience with smooth animations powered by GSAP.
-
-## 🚀 Features
-
-- Modern and responsive design
-- Interactive UI animations using GSAP
-- Smooth scrolling and text animations
-- Project showcase section
-- Skills and expertise display
-- Contact form
-
-## 🛠️ Technologies
-
-- **React** - UI framework
-- **Vite** - Build tool and development server
-- **TailwindCSS** - Utility-first CSS framework
-- **GSAP** - Professional-grade animation library
-- **Lucide React** - Modern icon set
-
-## 🚦 Getting Started
-
-### Prerequisites
-
-- Node.js (v18 or higher recommended)
-- npm (bundled with Node.js)
-
-### Installation & development (Windows PowerShell)
-
-1. Clone the repository and enter the folder:
-
-```powershell
-git clone https://github.com/Typher7/react-portfolio.git
-cd "react-portfolio"
-```
-
-2. Install dependencies:
-
-```powershell
-npm install
-```
-
-3. Start the development server (Vite):
-
-```powershell
-npm run dev
-```
-
-4. Build for production:
-
-```powershell
-npm run build
-```
-
-5. Preview the production build locally:
-
-```powershell
-npm run preview
-```
-
-## 📁 Project Structure
-
-```
-src/
-├── assets/         # Static assets like images (includes `projectlogo.png` used by the Projects section)
-├── components/     # React components
-│   ├── About.jsx
-│   ├── Card.jsx
-│   ├── Contact.jsx
-│   ├── Footer.jsx
-│   ├── Header.jsx
-│   ├── Hero.jsx
-│   ├── Projects.jsx
-│   ├── Skills.jsx
-│   ├── SplitText.jsx
-│   └── TextType.jsx
-└── lib/           # Utility functions and helpers
-    └── utils.js
-```
-
-## 🎨 Customization
-
-The portfolio can be customized by:
-
-- Modifying TailwindCSS configuration in `tailwind.config.js`
-- Updating component content in the `src/components` directory
-- Adding or tweaking animations using GSAP in components
-- Editing helper utilities in `src/lib/utils.js`
-
-## 📝 License
-
-This project is open source.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-## 📧 Contact
-
-Enoch Atuahene - enatua01@wsc.edu
-Project Link: https://github.com/Typher7/react-portfolio
+> 🚀 A modern, responsive developer portfolio built with React to showcase projects, skills, and development experience.
 
 ---
 
-Notes about recent changes
-- All project entries in `src/components/Projects.jsx` now use the local image asset `src/assets/projectlogo.png` instead of remote placeholders. This makes the app work offline and avoids external hotlinking.
+## 👤 Author
+Ben Stearns - [@bstearns07](https://github.com/bstearns07)
 
-Troubleshooting
-- If you run into missing asset errors, confirm `src/assets/projectlogo.png` exists. If you see build errors related to Node or Vite, make sure Node.js is up-to-date and run `npm install` again.
+📅 **Last Updated:** 4-1-26
+
+---
+
+## 📑 Table of Contents
+- 📌 [Summary](#-summary)
+- ⭐ [Features](#-features)
+- ⚙️ [How It Works](#-how-it-works)
+- 🧰 [Tech Stack](#-tech-stack)
+- 🧱 [Project Structure](#-project-structure)
+- 🔧 [Development Tools](#-development-tools)
+- 🧠 [Core Concepts](#-core-concepts)
+- 📘 [What I Learned](#-what-i-learned)
+
+---
+
+## 📌 Summary
+
+Welcome to my portfolio application — a React-powered system that generates my personal portfolio website.
+
+This project serves as a **central hub** to showcase my background, technical skills, and key academic and personal projects I’ve built throughout my development journey.
+
+It is designed to provide a clean, structured way to explore my work and learn more about me as a developer.
+
+🔗 Explore my projects, background, and contact information all in one place.
+
+🌐 Visit my website: [bstearns.com](https://bstearns.com)
+
+---
+
+## ⭐ Features
+
+- 🎨 Responsive modern UI (mobile + desktop friendly)
+- ⚛️ Component-based React architecture
+- 📁 Dynamic project rendering system
+- 🧭 Smooth navigation between sections
+- 🌙 Clean, minimal layout focused on readability
+- 📦 Reusable project card components
+- 🔗 External links to GitHub repositories and live demos
+
+---
+
+## ⚙️ How It Works
+
+- Built using **React functional components**
+- Project data is structured and rendered dynamically
+- Navigation allows seamless transitions between sections
+- Each project is displayed using reusable UI components
+- External links open GitHub repos or deployed applications
+- Designed for scalability and easy future updates
+
+---
+
+## 🧱 Project Structure
+
+```bash
+src/
+│── components/     # Reusable UI components
+│── pages/          # Page views (Home, Projects, About)
+│── assets/         # Images and static files
+│── data/           # Project metadata / JSON
+│── styles/         # CSS styling files
+│── App.js          # Main application component
+│── index.js        # React entry point
+```
+
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ React
+- 💡 JavaScript (ES6+)
+- 🎨 HTML5
+- 🎨 CSS3
+- 📦 Node.js / npm
+
+---
+
+## 🔧 Development Tools
+- 🧑‍💻 Visual Studio Code
+- 🌐 Git & GitHub
+- ⚡ React Developer Tools
+- 🛠 Chrome DevTools
+- 📦 npm
+
+---
+
+## 🧩 Core Concepts
+
+- Component-based architecture
+- React hooks (useState, useEffect)
+- Props and state management
+- Dynamic rendering of data
+- Modular folder organization
+- Responsive UI design principles
+
+---
+
+## 📝 New Topics Covered
+- Structuring a scalable React application
+- Breaking UI into reusable components
+- Managing dynamic data rendering
+- Improving frontend organization and readability
+- Strengthening debugging and development workflow
+- Deploying and maintaining a React application
+
+---
+
+## 📘 What I Learned
+
+There's an incredible amount learned here. I've never learned React before and still haven't really delved into it. This was something I put together in about a 3hr workshop. I learned all about the basic structure of a React application including the resuable components. I was also introduced to Tailwind CSS in this project as well as AWS for hosting the application which was really cool to learn.
